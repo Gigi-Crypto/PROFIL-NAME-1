@@ -1,0 +1,66 @@
+body{
+background: whitesmoke;
+color: #6C4A4A;
+font-weight: lighter;
+
+
+}
+h1, h2, h3 {
+font-family: 'Kreon', serif;
+}
+h1{
+color: red;
+font-family: lato;
+font-weight: 100;
+letter-spacing: 10px;
+font-size: 60px;
+}
+h2{
+color: black;
+font-size: 24px;
+font-weight: lighter;
+}
+a  {
+	text-decoration: none;
+	color: #1597E5;
+}
+a :Hover  { 
+	color: Yellow;
+}
+<a href="/apply" class="btn-blue">Apply</a>
+
+
+ /*custums disign whith class*/
+.Container{
+   width: 700px;
+   margin: 40px auto;
+}
+.card-whrite {
+	background: whrite;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+   border-radius: 50%;
+ }
+.btn-blue {
+background-color: #6C4A4A;
+color: white;
+padding: 15px 20px;
+}
+.btn-blue : hover {
+background-color: black;
+color: White;
+}
+.list-Line {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-Line li {
+	display: inline;
+	padding: 10px;
+}
